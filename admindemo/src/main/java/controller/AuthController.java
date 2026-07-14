@@ -17,6 +17,8 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/auth")
 public class AuthController {
 
+    // Feature Branch: Login - Added for Git branching workflow demo
+
 
     private static final Logger logger =
             LoggerFactory.getLogger(AuthController.class);

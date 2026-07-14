@@ -106,7 +106,7 @@ public class AuthController {
 
         // 4. Generate JWT
 
-        logger.info("[AuthController] STEP 8 -> Calling JwtUtil to generate token");
+        logger.info("[AuthController] STEP 8 ->  Payment Feature generating token");
 
 
         String token = jwtUtil.generateToken(user.getUsername());

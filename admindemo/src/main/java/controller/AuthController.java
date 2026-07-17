@@ -41,7 +41,11 @@ public class AuthController {
 
 
         logger.info("========================================");
+<<<<<<< HEAD
         logger.info("[AuthController] STEP 4 -> Payment Feature ");
+=======
+        logger.info("[AuthController] STEP 4 -> Login Feature ");
+>>>>>>> develop
 
         logger.info("[AuthController] Username received: {}",
                 req.getUsername());

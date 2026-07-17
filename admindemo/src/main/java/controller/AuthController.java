@@ -41,7 +41,7 @@ public class AuthController {
 
 
         logger.info("========================================");
-        logger.info("[AuthController] STEP 4 -> Login Feature API called");
+        logger.info("[AuthController] STEP 4 -> Payment Feature ");
 
         logger.info("[AuthController] Username received: {}",
                 req.getUsername());
